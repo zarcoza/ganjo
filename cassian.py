@@ -18,8 +18,8 @@ from apscheduler.triggers.cron import CronTrigger
 from flask import Flask
 
 # === KONFIGURASI TELEGRAM ===
-api_id = int(os.getenv('TG_API_ID', '27165484'))
-api_hash = os.getenv('TG_API_HASH', 'b5f28de58166f16d6fedc4e0fd29a859')
+api_id = int(os.getenv('TG_API_ID', '32836387'))
+api_hash = os.getenv('TG_API_HASH', 'fb9a59f1f53c6e788f01119324b76fa1')
 client = TelegramClient('user_session', api_id, api_hash)
 
 # === SETUP LOGGER ===
